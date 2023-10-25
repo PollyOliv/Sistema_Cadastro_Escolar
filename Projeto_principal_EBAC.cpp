@@ -180,7 +180,8 @@ int main()
 				break;
 			
 				case 4:
-				sair();
+				printf("Obrigada por acessar o nosso sistema!\n");
+				return 0; 
 				break;
 		
 				default: 
@@ -193,7 +194,7 @@ int main()
 	
 		
 	else 
-	printf("Senha incorreta, digite novamete uma seha valida!");
+	printf("Senha incorreta, digite novamete uma senha valida!");
 }
 
 
